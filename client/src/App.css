@@ -1,13 +1,34 @@
-/* .App {
-  text-align: center;
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  /* background-color: rgb(97, 173, 53); */
+  background: url("/src/img/background/avion.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+
+  width: 100vw;
+  height: 70vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
+.content {
+  /* background-color: azure; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 67vw;
+  height: 70vh;
+}
+
+
+/* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
@@ -35,4 +56,4 @@
   to {
     transform: rotate(360deg);
   }
-} */
+}  */

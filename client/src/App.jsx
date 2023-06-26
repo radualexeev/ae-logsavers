@@ -1,11 +1,13 @@
 import './App.css';
+import Container from './components/container';
+import Content from './components/content';
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      start ...
+      <Container>
+        <Content />
+      </Container>
     </div>
   );
-}
-
-export default App;
+};
