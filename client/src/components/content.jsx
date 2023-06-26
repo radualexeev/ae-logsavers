@@ -1,7 +1,7 @@
-export default function Content() {
+export default function Content({ children }) {
     return (
         <div className="content">
-            a
+            {children}
         </div>
     );
 };
