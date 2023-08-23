@@ -1,18 +1,14 @@
-import './App.css';
-import Container from './components/container';
-import Content from './components/content';
-import Box from './components/header/body/footer/box';
-import Header from './components/header/body/footer/header';
+import VideoBackground from "./components/VideoBackground";
+import FirstPage from "./components/firstPage";
+import SecondPage from "./components/SecondPage";
 
 export default function App() {
   return (
-    <div className="App">
-      <Container>
-        <Content>
-          <Header />
-          <Box />
-        </Content>
-      </Container>
+    <div className="w-screen h-full flex flex-col items-center justify-center overflow-hidden">
+      <VideoBackground>
+        <FirstPage />
+      </VideoBackground>
+      <SecondPage />
     </div>
   );
 };
