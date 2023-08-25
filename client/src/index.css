@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url("./fonts/Montserrat-SemiBold.ttf") format("tff");
+    src: url("./fonts/Montserrat-Black.ttf") format("tff");
+    src: url("./fonts/Montserrat-BlackItalic.ttf") format("tff");
+    src: url("./fonts/Montserrat-Bold.ttf") format("tff");
+    src: url("./fonts/Montserrat-BoldItalic.ttf") format("tff");
+    src: url("./fonts/Montserrat-ExtraBold.ttf") format("tff");
+    src: url("./fonts/Montserrat-ExtraBoldItalic.ttf") format("tff");
+    src: url("./fonts/Montserrat-ExtraLight.ttf") format("tff");
+    src: url("./fonts/Montserrat-ExtraLightItalic.ttf") format("tff");
+    src: url("./fonts/Montserrat-Italic.ttf") format("tff");
+    src: url("./fonts/Montserrat-Light.ttf") format("tff");
+    src: url("./fonts/Montserrat-LightItalic.ttf") format("tff");
+    src: url("./fonts/Montserrat-Medium.ttf") format("tff");
+    src: url("./fonts/Montserrat-MediumItalic.ttf") format("tff");
+    src: url("./fonts/Montserrat-Regular.ttf") format("tff");
+    src: url("./fonts/Montserrat-SemiBold.ttf") format("tff");
+    src: url("./fonts/Montserrat-SemiBoldItalic.ttf") format("tff");
+    src: url("./fonts/Montserrat-Thin.ttf") format("tff");
+    src: url("./fonts/Montserrat-ThinItalic.ttf") format("tff");
+}

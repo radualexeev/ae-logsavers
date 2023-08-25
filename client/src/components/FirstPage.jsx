@@ -2,10 +2,10 @@ export default function FirstPage() {
     return (
     <div className=" text-white flex flex-col items-center justify-start relative w-full h-screen z-10">
       {/* ------------------------------------------------ */}
-      <div className="w-full h-24 flex items-center">
+      <div className="w-full h-24 flex items-center ">
         <ul className="w-full flex flex-row justify-between items-center text-sm font-bold tracking-widest uppercase">
           <li className="w-1/3 flex justify-start gap-10 pl-8">
-            <a href="/">Services</a>
+            <a className="" href="/">Services</a>
             <a href="/">Works</a>
             <a href="/">About</a>
           </li>
