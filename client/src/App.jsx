@@ -1,5 +1,5 @@
 import VideoBackground from "./components/VideoBackground";
-import FirstPage from "./components/firstPage";
+import FirstPage from "./components/FirstPage"
 import SecondPage from "./components/SecondPage";
 
 export default function App() {

@@ -396,3 +396,5 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+client/src/assets/back.mp4
+client/src/assets/back.webm
