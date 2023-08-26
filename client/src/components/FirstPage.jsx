@@ -1,9 +1,19 @@
 export default function FirstPage() {
     return (
     <div className=" text-white flex flex-col items-center justify-start relative w-full h-screen z-10">
-      
       <div className="w-full h-5/6 flex flex-col items-center justify-center ">
-        <h1 className="w-3/5 p-10 uppercase text-center leading-snug text-7xl font-thin">a new generation of media agency</h1>
+        <div className="w-1/2 p-10 uppercase text-center leading-snug text-7xl font-thin flex flex-col items-center justify-center border">
+          <div className="w-[837px] h-[88px] text-center">
+            <span className="mx-4" initial={{x: window}} animate={{y: []}} >a</span>
+            <span className="mx-4">new</span>
+            <span className="third mx-4">generation</span> 
+          </div>
+          <div className="w-[837px] h-[88px] text-center">
+            <span className="mx-4">of</span>
+            <span className="mx-4">media</span>
+            <span className="mx-4">agency</span> 
+          </div>
+        </div>
         <p className="w-3/5 p-5 text-center text-xl font-thin">Our experience is hidden under mountains of hard work</p>
         <button className="my-16 border-solid border-2 uppercase tracking-wider rounded-2xl py-2 px-5">Find Your Quote</button>
       </div>
