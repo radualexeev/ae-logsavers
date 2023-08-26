@@ -1,28 +1,44 @@
 export default function FirstPage() {
     return (
-    <div className=" text-white flex flex-col items-center justify-start relative w-full h-screen z-10">
+    <div className=" text-white flex flex-col items-center justify-center relative w-full h-screen z-10">
       <div className="w-full h-5/6 flex flex-col items-center justify-center ">
-        <div className="w-1/2 p-10 uppercase text-center leading-snug text-7xl font-thin flex flex-col items-center justify-center border">
-          <div className="w-[837px] h-[88px] flex flex-row justify-center items-center">
-            <span className="mr-4 animate-rollFirst">a</span>
-            <span className="animate-rollSecond">n</span>
-            <span className="animate-rollFirst">e</span>
-            <span className="mr-4 animate-rollSecond">w</span> 
-            <span className="animate-rollFirst">g</span> 
-            <span className="animate-rollSecond">e</span> 
-            <span className="animate-rollFirst">n</span> 
-            <span className="animate-rollSecond">e</span> 
-            <span className="animate-rollFirst">r</span> 
-            <span className="animate-rollSecond">a</span> 
-            <span className="animate-rollFirst">t</span> 
-            <span className="animate-rollSecond">i</span> 
-            <span className="animate-rollFirst">o</span> 
-            <span className="animate-rollSecond">n</span> 
+        <div className="w-1/2 p-10 uppercase text-center leading-snug text-7xl font-thin flex flex-col items-center justify-center ">
+          <div className="w-[837px] h-[88px] flex flex-row justify-center items-center gap-4">
+              <span className="animate-rollFirst">a</span>
+
+              <span className="animate-rollSecond">n</span>
+              <span className="animate-rollFirst">e</span>
+              <span className="animate-rollSecond">w</span> 
+
+              <span className="animate-rollFirst">g</span> 
+              <span className="animate-rollSecond">e</span> 
+              <span className="animate-rollFirst">n</span> 
+              <span className="animate-rollSecond">e</span> 
+              <span className="animate-rollFirst">r</span> 
+              <span className="animate-rollSecond">a</span> 
+              <span className="animate-rollFirst">t</span> 
+              <span className="animate-rollSecond">i</span> 
+              <span className="animate-rollFirst">o</span> 
+              <span className="animate-rollSecond">n</span> 
+
           </div>
-          <div className="w-[837px] h-[88px] text-center">
-            <span className="mx-4">of</span>
-            <span className="mx-4">media</span>
-            <span className="mx-4">agency</span> 
+          <div className="w-[837px] h-[88px] flex flex-row justify-center items-center gap-4">
+
+              <span className="animate-rollFirst">o</span>
+              <span className="animate-rollFirst">f</span>
+
+              <span className="animate-rollSecond">maa</span>
+              <span className="animate-rollFirst">e</span>
+              <span className="animate-rollSecond">d</span> 
+              <span className="animate-rollSecond">i</span> 
+              <span className="animate-rollSecond">a</span> 
+
+              <span className="animate-rollFirst">a</span> 
+              <span className="animate-rollSecond">g</span> 
+              <span className="animate-rollFirst">e</span> 
+              <span className="animate-rollSecond">n</span> 
+              <span className="animate-rollFirst">c</span> 
+              <span className="animate-rollSecond">y</span> 
           </div>
         </div>
         <p className="w-3/5 p-5 text-center text-xl font-thin">Our experience is hidden under mountains of hard work</p>

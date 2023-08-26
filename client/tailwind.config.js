@@ -7,11 +7,11 @@ module.exports = {
     extend: {
       keyframes: {
         rollFirst: {
-          '0%': { opacity: 0, transform: 'translateY(-250px) rotate(-200deg)' },
+          '0%': { opacity: 0, transform: 'translateY(-100px) rotate(-200deg)' },
           '100%': { opacity: 1, transform: 'translateY(0) rotate(0deg)' },
         },
         rollSecond: {
-          '0%': { opacity: 0, transform: 'translateY(-200px) rotate(-300deg)' },
+          '0%': { opacity: 0, transform: 'translateY(-100px) rotate(-300deg)' },
           '100%': { opacity: 1, transform: 'translateY(0) rotate(0deg)' },
         },
         vectorUp: {
@@ -33,8 +33,8 @@ module.exports = {
         }
       },
       animation: {
-        "rollFirst": "rollFirst 2s ease-in-out 1s 1 normal none",
-        "rollSecond": "rollSecond 2s ease-in-out 1s 1 normal none",
+        "rollFirst": "rollFirst 2s ease-in-out 1s infinite normal none",
+        "rollSecond": "rollSecond 2s ease-in-out 1s infinite normal none",
         "vectorUp" : "vectorUp 3s ease-in-out 1s infinite normal forwards"
       },
       fontFamily: {
